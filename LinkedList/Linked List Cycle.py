@@ -6,6 +6,9 @@
 # index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
 
 # Return true if there is a cycle in the linked list. Otherwise, return false.
+
+from typing import Optional
+
 class ListNode:
     def __init__(self, x):
         self.val = x
